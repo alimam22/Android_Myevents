@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val navView: BottomNavigationView = binding.navView
 
+        println()
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         Log.d("NavController", "NavController found: $navController")
         // Passing each menu ID as a set of Ids because each
